@@ -1,0 +1,22 @@
+/* User Map Data */
+.user-map-container textarea {
+    height: 260px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+
+.user-map-form {
+    margin-bottom: 30px;
+}
+
+.user-map-data {
+    background-color: #fcfcfc;
+    height: 290px;
+    padding: 15px;
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 100%;
+}
