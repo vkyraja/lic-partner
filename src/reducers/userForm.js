@@ -11,7 +11,7 @@ const initialState = {
 
 const getUserMapData = (userData) => {
     return (dispatch) => {
-        return axios.get(`http://api.zippopotam.us/${userData.country}/${userData.state}/${userData.city}`)
+        return axios.get(`//api.zippopotam.us/${userData.country}/${userData.state}/${userData.city}`)
             .then(resp => {
                 if (resp && resp.status === 200) {
                     dispatch(updateUserDataSuccess(resp.data));
